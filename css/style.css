@@ -652,6 +652,28 @@ header > .container-fluid img {
   margin-bottom: 10px!important;
 }
 
+@media only screen and (max-width: 991px) {
+
+	.carousel-caption {padding: 0px;}
+}
+
+@media only screen and (max-width: 767px){
+	.carousel-caption h4,
+	.carousel-caption p {font-size: 13px;}
+}
+@media only screen and (max-width: 329px){
+	.carousel-caption h4,
+	.carousel-caption p {font-size: 11px;}
+
+}
+
+@media only screen and (max-width: 286px){
+	.carousel-caption h4,
+	.carousel-caption p {font-size: 10px;}
+
+}
+
+
 /**************************
 11. Download
 ***************************/
